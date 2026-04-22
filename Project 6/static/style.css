@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f6f8;
+    color: #1f2933;
+}
+
+.container {
+    width: min(920px, 92%);
+    margin: 0 auto;
+}
+
+.topbar {
+    background: #0f172a;
+    color: #fff;
+    padding: 14px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.brand {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 14px;
+}
+
+.links a {
+    color: #e2e8f0;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+main.container {
+    padding: 26px 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.card,
+.form-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.meta {
+    color: #52606d;
+    font-size: 0.92rem;
+}
+
+label {
+    display: block;
+    margin: 8px 0 6px;
+    font-weight: 600;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+}
+
+input,
+textarea {
+    border: 1px solid #cbd2d9;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.flash {
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.flash-success {
+    background: #dcfce7;
+    color: #14532d;
+}
+
+.flash-danger {
+    background: #fee2e2;
+    color: #7f1d1d;
+}
+
+.flash-info {
+    background: #dbeafe;
+    color: #1e3a8a;
+}
+
+.flash-warning {
+    background: #fef9c3;
+    color: #713f12;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.actions a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.actions form {
+    margin: 0;
+}
+
+.actions button {
+    width: auto;
+    margin: 0;
+    background: #dc2626;
+    padding: 8px 12px;
+}
+
+.actions button:hover {
+    background: #b91c1c;
+}
